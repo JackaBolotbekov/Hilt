@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">M5HW5</string>
+    <string name="todo">TODO</string>
+    <string name="id">id</string>
+    <string name="title">title</string>
+    <string name="url">Url</string>
+    <string name="thumbnailurl">thumbnailUrl</string>
+    <string name="imageurl">ImageUrl</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/getPhotoFragment">
+
+    <fragment
+        android:id="@+id/getPhotoFragment"
+        android:name="com.example.m5hw5.hilt.ui.fragments._home.GetPhotoFragment"
+        android:label="GetPhotoFragment" >
+        <action
+            android:id="@+id/action_getPhotoFragment_to_photoFragment"
+            app:destination="@id/photoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.example.m5hw5.hilt.ui.fragments.post.PhotoFragment"
+        android:label="PhotoFragment" >
+        <action
+            android:id="@+id/action_photoFragment_to_getPhotoFragment"
+            app:destination="@id/getPhotoFragment" />
+    </fragment>
+</navigation>
